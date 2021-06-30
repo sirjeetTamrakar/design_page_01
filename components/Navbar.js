@@ -24,7 +24,7 @@ const Navbar = () => {
 							data-aos-once='true'
 							className={styles.link}
 						>
-							<Link href='#home'>Home</Link>
+							<Link href='/'>Home</Link>
 						</div>
 						<div
 							data-aos-delay='2650'
