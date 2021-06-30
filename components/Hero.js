@@ -24,7 +24,7 @@ const Hero = () => {
 						</p>
 						<div className={styles.buttons}>
 							<button
-								data-aos='zoom-in-right'
+								data-aos='fade-up-right'
 								data-aos-delay='1000'
 							>
 								Get Started

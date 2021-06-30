@@ -14,7 +14,7 @@
     position: relative;
     box-shadow: 10px 10px  #e0e7f1;
     border-radius: 2rem;
-    width: 100%;
+    width: 90%;
     margin-inline: auto;
 }
 
@@ -123,6 +123,8 @@ align-items: center;}
 @media screen and (max-width:770px) {
     .main{
         grid-template-columns:  1fr;
+               overflow: hidden;
+
     }
     .image{
         margin: auto;

@@ -141,7 +141,6 @@
  
       background-color: #fbfbfb;
           animation: link .5s ease;
-          min-height: 300px;
 
 
 
@@ -149,7 +148,7 @@
   .mobile_buttons > button{
     margin-right: 1rem;
     margin-bottom: 2rem;
-    font-size: large;
+    font-size: medium;
   }
 
   .menu_icon{
