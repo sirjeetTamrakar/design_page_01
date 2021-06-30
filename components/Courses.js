@@ -29,6 +29,7 @@ const Courses = () => {
 										src={imageURL}
 										className={styles.image}
 										layout='fill'
+										alt='Hello'
 									/>
 								</div>
 								<p>{tag}</p>

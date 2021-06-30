@@ -26,7 +26,6 @@ const Hero = () => {
 							<button
 								data-aos='fade-up-right'
 								data-aos-delay='1000'
-								data-aos-delay='1000'
 							>
 								Get Started
 							</button>
