@@ -9,7 +9,12 @@ const Steps = () => {
 				<h3>How to Learn at Stockholm</h3>
 				<div className={styles.flex}>
 					{steps.map(step => (
-						<div key={step.id} className={styles.steps}>
+						<div
+							data-aos-delay={step.delay}
+							data-aos='zoom-in-left'
+							key={step.id}
+							className={styles.steps}
+						>
 							<h3>{step.id}</h3>
 							<h4>{step.title}</h4>
 							<small>{step.description}</small>

@@ -8,7 +8,11 @@ const Testimonial = () => {
 				<small>TESTIMONIAL</small>
 				<h3>They Say About Our Courses</h3>
 				<div className={styles.main}>
-					<div className={styles.content}>
+					<div
+						data-aos-delay='500'
+						data-aos='zoom-in-right'
+						className={styles.content}
+					>
 						<b>"</b>
 						<p>
 							I just wanted to share a quick note and let you know that you guys
@@ -30,7 +34,11 @@ const Testimonial = () => {
 							</div>
 						</div>
 					</div>
-					<div className={styles.image}>
+					<div
+						data-aos-delay='1000'
+						data-aos='zoom-in-left'
+						className={styles.image}
+					>
 						<Image
 							src='/person.jpg'
 							className={styles.img}

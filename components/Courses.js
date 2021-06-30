@@ -17,8 +17,13 @@ const Courses = () => {
 				</div>
 				<div className={styles.cards}>
 					{courses.map(
-						({id, imageURL, tag, course_name, teacher, lessons, stars}) => (
-							<div className={styles.card} key={id}>
+						({id, imageURL, tag, course_name, teacher, lessons, stars, delay}) => (
+							<div
+								data-aos-delay={delay}
+								data-aos='zoom-in-up'
+								className={styles.card}
+								key={id}
+							>
 								<div className={styles.img}>
 									<Image
 										src={imageURL}
@@ -35,7 +40,7 @@ const Courses = () => {
 								<div className={styles.stars}>
 									<p className={styles.back1}>{stars}/5</p>
 									<span className={`material-icons ${styles.back}`}>
-											arrow_forward
+										arrow_forward
 									</span>
 								</div>
 							</div>

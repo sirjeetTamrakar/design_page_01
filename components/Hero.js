@@ -7,27 +7,48 @@ const Hero = () => {
 			<>
 				<div id='home' className={styles.main}>
 					<div className={styles.content}>
-						<p>The Right Choice</p>
-						<h1>
+						<p data-aos='zoom-in-left'>The Right Choice</p>
+						<h1 data-aos='zoom-in-down'>
 							Learn to be
-							<div style={{fontSize: "3rem", color: "#595b96"}}>
-								Digital Creative{" "}
-							</div>{" "}
+							<div
+								data-aos='zoom-in-up'
+								style={{fontSize: "3rem", color: "#595b96"}}
+							>
+								Digital Creative
+							</div>
 							Here
 						</h1>
-						<p>
+						<p data-aos='zoom-in-right' data-aos-delay='1000'>
 							You will learn the best ways to create testimonials from the best
 							tutors out there.
 						</p>
 						<div className={styles.buttons}>
-							<button>Get Started</button>
+							<button
+								data-aos='fade-up-right'
+								data-aos-delay='1000'
+								data-aos-delay='1000'
+							>
+								Get Started
+							</button>
 							<div>
-								<span className='material-icons'>play_circle</span>
-								<div>Watch Video</div>
+								<span
+									className='material-icons'
+									data-aos-delay='1000'
+									data-aos='zoom-in-down'
+								>
+									play_circle
+								</span>
+								<div data-aos-delay='1000' data-aos='zoom-in-up'>
+									Watch Video
+								</div>
 							</div>
 						</div>
 					</div>
-					<div className={styles.image}>
+					<div
+						data-aos='zoom-in-right'
+						data-aos-delay='2000'
+						className={styles.image}
+					>
 						<Image
 							src='/laptop.jpg'
 							className={styles.img}
@@ -52,7 +73,11 @@ const Hero = () => {
 						</div>
 					</div>
 				</div>
-				<div className={styles.icons}>
+				<div
+					data-aos='zoom-in-up'
+					data-aos-delay='2000'
+					className={styles.icons}
+				>
 					<i className='devicon-google-plain-wordmark'></i>
 					<i className='devicon-nginx-original'></i>{" "}
 					<i className='devicon-nextjs-original-wordmark'></i>

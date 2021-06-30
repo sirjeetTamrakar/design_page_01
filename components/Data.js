@@ -3,21 +3,25 @@ export const steps = [
 						id: "01",
 						title: "Create an Account",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						delay: 1000,
 					},
 					{
 						id: "02",
 						title: "Choose Any Course",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						delay: 1200,
 					},
 					{
 						id: "03",
 						title: "Payment",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						delay: 1400,
 					},
 					{
 						id: "04",
 						title: "Enjoy Your Course",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						delay: 1600,
 					},
 				];
 
@@ -30,6 +34,7 @@ export const courses = [
 						teacher: "Charles Russell",
 						lessons: "35 Lessons",
 						stars: "4.9",
+						delay: 1000,
 					},
 					{
 						id: 2,
@@ -39,6 +44,7 @@ export const courses = [
 						teacher: "Walter Jones",
 						lessons: "20 Lessons",
 						stars: "4.9",
+						delay: 1200,
 					},
 					{
 						id: 3,
@@ -48,6 +54,7 @@ export const courses = [
 						teacher: "Natalie Rues",
 						lessons: "15 Lessons",
 						stars: "4.9",
+						delay: 1400,
 					},
 					{
 						id: 4,
@@ -57,6 +64,7 @@ export const courses = [
 						teacher: "Maurice Jensen",
 						lessons: "45 Lessons",
 						stars: "4.9",
+						delay: 1000,
 					},
 					{
 						id: 5,
@@ -66,6 +74,7 @@ export const courses = [
 						teacher: "Elvis John",
 						lessons: "25 Lessons",
 						stars: "4.9",
+						delay: 1200,
 					},
 					{
 						id: 6,
@@ -75,5 +84,6 @@ export const courses = [
 						teacher: "Jennifer Lawrence",
 						lessons: "30 Lessons",
 						stars: "4.9",
+						delay: 1400,
 					},
 				];

@@ -5,9 +5,15 @@ import styles from '../styles/Feature.module.css'
 const Features = () => {
     return (
 			<div id='about' className={styles.head}>
-				<h2>Benefits of Joining Our Course</h2>
+				<h2 data-aos-delay='1000' data-aos='fade-in-down'>
+					Benefits of Joining Our Course
+				</h2>
 				<div className={styles.main}>
-					<div className={styles.image}>
+					<div
+						data-aos-delay='500'
+						data-aos='zoom-in-right'
+						className={styles.image}
+					>
 						<Image
 							src='/book.jpg'
 							className={styles.img}
@@ -35,7 +41,11 @@ const Features = () => {
 					<div className={styles.content}>
 						<div className={styles.items}>
 							<span className={`material-icons ${styles.icon}`}>people</span>
-							<div className={styles.item}>
+							<div
+								data-aos-delay='800'
+								data-aos='zoom-in-left'
+								className={styles.item}
+							>
 								<b>Expert Mentors</b>
 								<small>
 									Excellent teachers guidance will be provided to you on a dailt
@@ -43,7 +53,11 @@ const Features = () => {
 								</small>
 							</div>
 						</div>
-						<div className={styles.items}>
+						<div
+							data-aos-delay='1000'
+							data-aos='zoom-in-left'
+							className={styles.items}
+						>
 							<span className={`material-icons ${styles.icon1}`}>
 								all_inclusive
 							</span>
@@ -55,7 +69,11 @@ const Features = () => {
 								</small>
 							</div>
 						</div>
-						<div className={styles.items}>
+						<div
+							data-aos-delay='1200'
+							data-aos='zoom-in-left'
+							className={styles.items}
+						>
 							<span className={`material-icons ${styles.icon2}`}>school</span>
 							<div className={styles.item}>
 								<b>Award Certificate</b>
