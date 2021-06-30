@@ -25,7 +25,7 @@
     margin-left: 5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .content>h1{
@@ -112,6 +112,10 @@ align-items: center;}
         top: 0%;
         left: 0%;
         width: 40%;
+    }
+    .image{
+        margin: auto;
+        height: 40vh;
     }
 }
 

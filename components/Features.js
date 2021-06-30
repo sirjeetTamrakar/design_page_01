@@ -4,7 +4,7 @@ import styles from '../styles/Feature.module.css'
 
 const Features = () => {
     return (
-			<div className={styles.head}>
+			<div id='about' className={styles.head}>
 				<h2>Benefits of Joining Our Course</h2>
 				<div className={styles.main}>
 					<div className={styles.image}>
@@ -48,7 +48,7 @@ const Features = () => {
 								all_inclusive
 							</span>
 							<div className={styles.item}>
-									<b>Unlimited Access</b>
+								<b>Unlimited Access</b>
 								<small>
 									Learn at your own pace at you own time with lifetime access on
 									mobile and desktop.
@@ -60,7 +60,7 @@ const Features = () => {
 							<div className={styles.item}>
 								<b>Award Certificate</b>
 								<small>
-									Get an e-certificate to show your knowledge and expertise. 
+									Get an e-certificate to show your knowledge and expertise.
 								</small>
 							</div>
 						</div>

@@ -7,7 +7,7 @@ const menu = ['All', 'Design', 'IT & Tech', 'Business', 'Marketing', 'Developmen
 
 const Courses = () => {
     return (
-			<div className={styles.head}>
+			<div id='course' className={styles.head}>
 				<small>DISCOVER</small>
 				<h3>Our Popular Courses</h3>
 				<div className={styles.flex}>

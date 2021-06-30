@@ -6,26 +6,26 @@ const Navbar = () => {
     const [menuIcon, setMenuIcon] = useState(false)
     return (
 			<>
-				<div className={styles.grid}>
+				<div id='home' className={styles.grid}>
 					<div className={styles.logo}>Your Logo</div>
-						<span
-							className={`${styles.menu_icon} material-icons`}
-							onClick={() => setMenuIcon(!menuIcon)}
-						>
-							menu
-						</span>
+					<span
+						className={`${styles.menu_icon} material-icons`}
+						onClick={() => setMenuIcon(!menuIcon)}
+					>
+						{!menuIcon ? "menu" : "close"}
+					</span>
 					<div className={!menuIcon ? styles.links : styles.mobile_links}>
 						<div className={styles.link}>
-							<Link href='home'>Home</Link>
+							<Link href='#home'>Home</Link>
 						</div>
 						<div className={styles.link}>
-							<Link href='home'>Course</Link>
+							<Link href='#course'>Course</Link>
 						</div>
 						<div className={styles.link}>
-							<Link href='home'>Testimonials</Link>
+							<Link href='#test'>Testimonials</Link>
 						</div>
 						<div className={styles.link}>
-							<Link href='home'>About Us</Link>
+							<Link href='#about'>About Us</Link>
 						</div>
 					</div>
 					<div className={!menuIcon ? styles.buttons : styles.mobile_buttons}>

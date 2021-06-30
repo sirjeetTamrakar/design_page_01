@@ -56,12 +56,19 @@
 
 .image{
     border-radius: 1rem;
+    transition: all .5s ease-in-out;
+
+}
+.image:hover{
+    transform: scale(1.1);
+    border-radius: 1rem;
 }
 
 .img{
     width: 100%;
     position: relative;
     height: 30vh;
+    border-radius: 1rem;
 }
 
 .card>p:first-of-type{

@@ -22,6 +22,12 @@
 
 .link{
   margin-right: 2rem;
+  transition: all 0.4s ease;
+}
+
+.link:hover{
+  color: #595b96;
+  
 }
 
 .mobile_links{
@@ -104,26 +110,29 @@
     top:80px;
     position: absolute;
     width: 100%;
-    height: 100px;
+    min-height: 150px;
     background-color: #fbfbfb;
-       z-index: 10;
-
+    z-index: 10;
+    animation: link .5s ease;
   }
   .mobile_buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    top:180px;
+    top:230px;
     position: absolute;
     width: 100%;
-       z-index: 10;
-           background-color: #fbfbfb;
+      z-index: 10;
+      background-color: #fbfbfb;
+          animation: link .5s ease;
+
 
 
   }
   .mobile_buttons > button{
     margin-right: 1rem;
     margin-bottom: 2rem;
+    font-size: small;
   }
 
   .menu_icon{
@@ -131,6 +140,7 @@
     margin-right: 1rem;
     cursor: pointer;
     transition: all .2s ease-in-out;
+
   }
 
   .menu_icon:hover{
@@ -141,5 +151,12 @@
     display: none;
   }
   
+
+}
+
+@keyframes link {
+    0%{
+      transform: translateX(-50%);
+    }
 
 }
