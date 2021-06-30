@@ -72,18 +72,10 @@
     font-size: .9rem;
 }
 
-.button{
-    border: none;
-    color: white;
-    background-color: #595b96;
-    font-size: 0;
-    width: 20%;
-}
-
 .stars{
     display: flex;
     justify-content: space-between;
-        padding: .5rem 0rem;
+    padding: .5rem 0rem;
 
 }
 
@@ -109,6 +101,8 @@
     height: 2rem;
     margin-top: 1rem;
     cursor: pointer;
+        text-align: center;
+
 }
 @media screen and (max-width:1000px) {
     .cards{
