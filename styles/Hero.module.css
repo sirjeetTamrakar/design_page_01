@@ -1,0 +1,132 @@
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    min-height: 50vh;
+    margin-top: 4rem;
+}
+
+.image{
+    position: relative;
+    box-shadow: 10px 10px  #e0e7f1;
+    border-radius: 2rem;
+    width: 100%;
+    margin-inline: auto;
+}
+
+
+.icon{
+    z-index: 5;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    border-radius: .5rem;
+    justify-content: space-evenly;
+    box-shadow: -2px 2px 10px rgb(124, 124, 124) ;
+}
+
+.icon1{
+    right: -3rem;
+    top:5rem;
+    padding: .5rem 0rem;
+    width: 35%;
+}
+
+.icon2{
+    top:60%;
+    left:-10%;
+    padding: 2rem;
+    width: 40%;
+}
+
+.back{
+    background-color: #6dc8a0;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+}
+
+.back1{
+    background-color: #eea8b3;
+    padding: .3rem;
+    border-radius: .5rem;
+    color: white;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+.img{
+    border-radius: 2rem;
+}
+
+.content{
+    margin-right: 10rem;
+    width: 60%;
+}
+
+.content>h1{
+    letter-spacing: .1rem;
+    word-spacing: 1rem;
+}
+
+.buttons>button:nth-child(1){
+    font-size: 1rem;
+  border: none;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  color: white;
+  background-color: #595b96;
+  margin-right: .5rem;
+}
+
+
+.buttons{
+    display: flex;
+}
+
+.buttons>div{
+    color: #595b96;
+    margin-inline: 1rem;
+    margin-top: .3rem;
+display: flex;}
+
+.icons{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 5rem;
+    width: 90%;
+    margin-inline: auto;
+    color: #bbbdce;
+    font-weight: bolder;
+}
+@media screen and (max-width:1100px) {
+    .main{
+        grid-template-columns: 1fr 2fr;
+    }
+    .content{
+        margin-right: 5rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .main{
+        grid-template-columns: 1fr;
+    }
+    .image{
+        margin: auto;
+        margin-top: 5rem;
+        height: 50vh;
+    }
+    .icon1{
+        top: -10%;
+        right: 0%;
+        width: 40%;
+    }
+    .icon2{
+        left: 0;
+    }
+
+    .content{
+        margin-right: 0rem;
+        width: 90%;
+    }
+}

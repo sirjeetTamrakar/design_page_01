@@ -1,0 +1,122 @@
+.head{
+    margin-top: 5rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+    border-radius: 2rem;
+
+    
+}
+.cards>div>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-radius: .5rem;
+            box-shadow: 5px 5px 40px #e2e4eb;
+
+}
+
+
+.flex>div{
+        padding: .5rem 1rem;
+}
+
+.flex>div:first-child{
+    width: 3rem;
+    text-align: center;
+}
+
+
+.flex>div:hover{
+    background-color: #e0e7f1;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+
+.image{
+    border-radius: 1rem;
+}
+
+.img{
+    width: 100%;
+    position: relative;
+    height: 30vh;
+}
+
+.card>p:first-of-type{
+    width: max-content;
+    border-radius: .5rem;
+    background-color: #e0e7f1;
+    padding:.25rem .5rem;
+    font-size: .9rem;
+}
+
+.button{
+    border: none;
+    color: white;
+    background-color: #595b96;
+    font-size: 0;
+    width: 20%;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-between;
+        padding: .5rem 0rem;
+
+}
+
+.back{
+    background-color: #6dc8a0;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    width: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    height: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.back1{
+    background-color: #595b96;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1rem;
+    height: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+@media screen and (max-width:1000px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

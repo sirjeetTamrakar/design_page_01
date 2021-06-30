@@ -1,0 +1,39 @@
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    min-height: 50vh;
+    margin-top: 4rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    padding-left: 5rem;
+    box-shadow: 5px 5px 10px rgb(233, 233, 233);
+    margin-bottom: 5rem;
+}
+
+.image{
+    position: relative;
+    box-shadow: 10px 10px  #e2e4eb;
+    border-radius: 2rem;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.img{
+    border-radius: 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content>h1{
+    letter-spacing: .1rem;
+    word-spacing: 1rem;
+}
+
+.head{
+    margin-top: 5rem;
+}
