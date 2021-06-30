@@ -84,9 +84,11 @@ align-items: center;}
 .i2{
     top:60%;
     right:-10%;
-    padding: 1rem;
+    padding: 2rem;
     padding-top: 2rem;
     width: 30%;
+    text-align: center;
+    align-items: center;
 }
 
 .back{
