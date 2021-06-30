@@ -7,19 +7,10 @@ const Navbar = () => {
     return (
 			<>
 				<div className={styles.grid}>
-					<div
-						data-aos='fade-up-right'
-						data-aos-once='true'
-						className={styles.logo}
-					>
-						Logo
-					</div>
+					<div className={styles.logo}>Logo</div>
 					<span
 						className={`${styles.menu_icon} material-icons`}
 						onClick={() => setMenuIcon(!menuIcon)}
-						data-aos-delay='2000'
-						data-aos='zoom-in-up'
-						data-aos-once='true'
 					>
 						{!menuIcon ? "menu" : "close"}
 					</span>
@@ -30,6 +21,7 @@ const Navbar = () => {
 						<div
 							data-aos-delay='2500'
 							data-aos='zoom-in-up'
+							data-aos-once='true'
 							className={styles.link}
 						>
 							<Link href='#home'>Home</Link>
@@ -37,6 +29,7 @@ const Navbar = () => {
 						<div
 							data-aos-delay='2650'
 							data-aos='zoom-in-up'
+							data-aos-once='true'
 							className={styles.link}
 						>
 							<Link href='#course'>Course</Link>
@@ -44,6 +37,7 @@ const Navbar = () => {
 						<div
 							data-aos-delay='2750'
 							data-aos='zoom-in-up'
+							data-aos-once='true'
 							className={styles.link}
 						>
 							<Link href='#test'>Testimonials</Link>
@@ -51,14 +45,19 @@ const Navbar = () => {
 						<div
 							data-aos-delay='2850'
 							data-aos='zoom-in-up'
+							data-aos-once='true'
 							className={styles.link}
 						>
 							<Link href='#about'>About Us</Link>
 						</div>
 					</div>
 					<div className={!menuIcon ? styles.buttons : styles.mobile_buttons}>
-						<button data-aos='zoom-in-down'>Sign In</button>
-						<button data-aos='zoom-in-down'>Sign Up</button>
+						<button data-aos='zoom-in-down' data-aos-once='true'>
+							Sign In
+						</button>
+						<button data-aos='zoom-in-down' data-aos-once='true'>
+							Sign Up
+						</button>
 					</div>
 				</div>
 			</>

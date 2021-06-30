@@ -63,7 +63,7 @@ const Footer = () => {
 				</div>
 				<div
 					data-aos-delay='1400'
-					data-aos='zoom-in-left'
+					data-aos='zoom-in-up'
 					className={styles.flex}
 				>
 					<div>Stay Connected</div>

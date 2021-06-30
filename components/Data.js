@@ -34,7 +34,7 @@ export const courses = [
 						teacher: "Charles Russell",
 						lessons: "35 Lessons",
 						stars: "4.9",
-						delay: 1000,
+						delay: 600,
 					},
 					{
 						id: 2,
@@ -44,7 +44,7 @@ export const courses = [
 						teacher: "Walter Jones",
 						lessons: "20 Lessons",
 						stars: "4.9",
-						delay: 1200,
+						delay: 800,
 					},
 					{
 						id: 3,
@@ -54,7 +54,7 @@ export const courses = [
 						teacher: "Natalie Rues",
 						lessons: "15 Lessons",
 						stars: "4.9",
-						delay: 1400,
+						delay: 1000,
 					},
 					{
 						id: 4,
@@ -64,7 +64,7 @@ export const courses = [
 						teacher: "Maurice Jensen",
 						lessons: "45 Lessons",
 						stars: "4.9",
-						delay: 1000,
+						delay: 600,
 					},
 					{
 						id: 5,
@@ -74,7 +74,7 @@ export const courses = [
 						teacher: "Elvis John",
 						lessons: "25 Lessons",
 						stars: "4.9",
-						delay: 1200,
+						delay: 800,
 					},
 					{
 						id: 6,
@@ -84,6 +84,6 @@ export const courses = [
 						teacher: "Jennifer Lawrence",
 						lessons: "30 Lessons",
 						stars: "4.9",
-						delay: 1400,
+						delay: 1000,
 					},
 				];

@@ -24,7 +24,7 @@ const Hero = () => {
 						</p>
 						<div className={styles.buttons}>
 							<button
-								data-aos='fade-up-right'
+								data-aos='zoom-in-right'
 								data-aos-delay='1000'
 							>
 								Get Started
@@ -44,7 +44,7 @@ const Hero = () => {
 						</div>
 					</div>
 					<div
-						data-aos='zoom-in-right'
+						data-aos='zoom-in-up'
 						data-aos-delay='2000'
 						className={styles.image}
 					>

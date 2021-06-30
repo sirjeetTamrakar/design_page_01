@@ -1,6 +1,7 @@
 .background{
      background-color: #595b96;
     color: white;
+    overflow-x: hidden;
 
 }
 .main{

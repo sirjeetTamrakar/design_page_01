@@ -1,6 +1,7 @@
 .main{
   width: 85%;
   margin: auto;
+ 
 }
 .grid{
   display: flex;
@@ -100,7 +101,7 @@
   }
   .buttons>button{
     margin-right: 1rem;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }
 
@@ -118,21 +119,29 @@
     top:80px;
     position: absolute;
     width: 100%;
-    min-height: 150px;
+    min-height: 400px;
+   
     background-color: #fbfbfb;
     z-index: 10;
     animation: link .5s ease;
+  }
+
+  .mobile_links>.link{
+    font-size: xx-large;
+    margin-bottom: 2rem;
   }
   .mobile_buttons{
     display: flex;
     align-items: center;
     justify-content: center;
-    top:230px;
+    top:430px;
     position: absolute;
     width: 100%;
       z-index: 10;
+ 
       background-color: #fbfbfb;
           animation: link .5s ease;
+          min-height: 300px;
 
 
 
@@ -140,7 +149,7 @@
   .mobile_buttons > button{
     margin-right: 1rem;
     margin-bottom: 2rem;
-    font-size: small;
+    font-size: large;
   }
 
   .menu_icon{
