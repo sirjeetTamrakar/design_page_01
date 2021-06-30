@@ -5,7 +5,7 @@ import styles from '../styles/Hero.module.css'
 const Hero = () => {
     return (
 			<>
-				<div  className={styles.main}>
+				<div id='home' className={styles.main}>
 					<div className={styles.content}>
 						<p>The Right Choice</p>
 						<h1>

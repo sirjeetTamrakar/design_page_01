@@ -6,15 +6,18 @@ const Navbar = () => {
     const [menuIcon, setMenuIcon] = useState(false)
     return (
 			<>
-				<div id='home' className={styles.grid}>
-					<div className={styles.logo}>Your Logo</div>
+				<div  className={styles.grid}>
+					<div className={styles.logo}>Logo</div>
 					<span
 						className={`${styles.menu_icon} material-icons`}
 						onClick={() => setMenuIcon(!menuIcon)}
 					>
 						{!menuIcon ? "menu" : "close"}
 					</span>
-					<div className={!menuIcon ? styles.links : styles.mobile_links}>
+					<div
+						className={!menuIcon ? styles.links : styles.mobile_links}
+						onClick={() => setMenuIcon(!menuIcon)}
+					>
 						<div className={styles.link}>
 							<Link href='#home'>Home</Link>
 						</div>

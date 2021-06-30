@@ -2,22 +2,22 @@ export const steps = [
 					{
 						id: "01",
 						title: "Create an Account",
-						description: `When you create a Mailchimp account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
 					},
 					{
 						id: "02",
 						title: "Choose Any Course",
-						description: `When you create a Mailchimp account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
 					},
 					{
 						id: "03",
 						title: "Payment",
-						description: `When you create a Mailchimp account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
 					},
 					{
 						id: "04",
 						title: "Enjoy Your Course",
-						description: `When you create a Mailchimp account, you agree to comply with our Terms of Use and anti-spam regulations. `,
+						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
 					},
 				];
 

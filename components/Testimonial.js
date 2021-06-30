@@ -9,12 +9,25 @@ const Testimonial = () => {
 				<h3>They Say About Our Courses</h3>
 				<div className={styles.main}>
 					<div className={styles.content}>
-						<p>The Right Choice</p>
-						<h5>Learn to be Digital Creative Here</h5>
-						<small>CEO</small>
-						<div className={styles.buttons}>
-							<button>Get Started</button>
-							<button>Watch Video</button>
+						<b>"</b>
+						<p>
+							I just wanted to share a quick note and let you know that you guys
+							do a really good job. I’m glad I decided to work with you. It’s
+							really great how easy your websites are to update and manage. I
+							never have any problem at all.
+						</p>
+						<b>Kylie Harper</b>
+						<small>Author</small>
+						<div className={styles.stars}>
+							<p className={styles.back1}>4.9/5</p>
+							<div>
+								<span className={`material-icons ${styles.back}`}>
+									arrow_back
+								</span>
+								<span className={`material-icons ${styles.back}`}>
+									arrow_forward
+								</span>
+							</div>
 						</div>
 					</div>
 					<div className={styles.image}>
