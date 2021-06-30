@@ -23,6 +23,9 @@
 
 .content{
     margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content>h1{
@@ -31,32 +34,29 @@
 
 .items{
     display: flex;
-    justify-content: space-between;
-}
+align-items: center;}
 
 
 .items>span{
     padding: 1.5rem;
     color: white;
-    margin: 2rem;
+    margin: 0rem;
+    margin-right: 1rem;
 }
 
 .icon{
     background-color: #feaa6f;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 .icon1{
     background-color: #eea8b3;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 .icon2{
     background-color: #6dc8a0;
     border-radius: 1rem;
-    margin-bottom: 1rem;
 }
 
 
@@ -122,13 +122,20 @@
     .image{
         margin: auto;
         margin-top: 5rem;
-        height: 50vh;
+        height: 40vh;
     }
     .items>span{
         margin-left: 1rem;
     }
     .i1{
         width: 25%;
+    }
+
+    .content{
+        padding-top: 4rem;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 1rem;
     }
     
 

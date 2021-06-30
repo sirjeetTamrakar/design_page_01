@@ -11,7 +11,7 @@ const Features = () => {
 						<Image
 							src='/book.jpg'
 							className={styles.img}
-						layout='fill'
+							layout='fill'
 							alt='Picture'
 						/>
 						<div className={`${styles.i} ${styles.i1}`}>
@@ -27,7 +27,8 @@ const Features = () => {
 							<small>
 								<b>Monthly Pricing</b>
 								<br />
-								Unsubscribe<br/> Anytime
+								Unsubscribe
+								<br /> Anytime
 							</small>
 						</div>
 					</div>
@@ -35,7 +36,7 @@ const Features = () => {
 						<div className={styles.items}>
 							<span className={`material-icons ${styles.icon}`}>people</span>
 							<div className={styles.item}>
-								<h5>Expert Mentors</h5>
+								<b>Expert Mentors</b>
 								<small>
 									Excellent teachers guidance will be provided to you on a dailt
 									basis.
@@ -47,20 +48,19 @@ const Features = () => {
 								all_inclusive
 							</span>
 							<div className={styles.item}>
-								<h5>Expert Mentors</h5>
+									<b>Unlimited Access</b>
 								<small>
-									Excellent teachers guidance will be provided to you on a dailt
-									basis.
+									Learn at your own pace at you own time with lifetime access on
+									mobile and desktop.
 								</small>
 							</div>
 						</div>
 						<div className={styles.items}>
 							<span className={`material-icons ${styles.icon2}`}>school</span>
 							<div className={styles.item}>
-								<h5>Expert Mentors</h5>
+								<b>Award Certificate</b>
 								<small>
-									Excellent teachers guidance will be provided to you on a dailt
-									basis.
+									Get an e-certificate to show your knowledge and expertise. 
 								</small>
 							</div>
 						</div>
