@@ -45,7 +45,7 @@ const Hero = () => {
 					</div>
 					<div
 						data-aos='zoom-in-up'
-						data-aos-delay='2000'
+						data-aos-delay='500'
 						className={styles.image}
 					>
 						<Image

@@ -77,6 +77,8 @@ align-items: center;}
     top:5rem;
         padding: .5rem 0rem;
         width: 25%;
+        text-align: center;
+    align-items: center;
 }
 
 .i2{

@@ -30,6 +30,8 @@
     top:5rem;
     padding: .5rem 0rem;
     width: 35%;
+    text-align: center;
+    align-items: center;
 }
 
 .icon2{
@@ -127,7 +129,7 @@ display: flex;}
     }
     .icon2{
         left: 0%;
-        top: 55%;
+        top: 50%;
     }
 
     .content{
