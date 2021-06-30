@@ -75,8 +75,8 @@ align-items: center;}
 .i1{
     left: -3rem;
     top:5rem;
-        padding: .5rem 0rem;
-        width: 25%;
+        padding: .5rem;
+        width: 30%;
         text-align: center;
     align-items: center;
 }

@@ -7,7 +7,7 @@ const Hero = () => {
 			<>
 				<div id='home' className={styles.main}>
 					<div className={styles.content}>
-						<p data-aos='zoom-in-left'>The Right Choice</p>
+						<small data-aos='zoom-in-left'>The Right Choice</small>
 						<h1 data-aos='zoom-in-down'>
 							Learn to be
 							<div
