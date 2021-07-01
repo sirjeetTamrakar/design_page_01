@@ -52,7 +52,8 @@ const Hero = () => {
 							src='/laptop.jpg'
 							className={styles.img}
 							layout='fill'
-							alt='Picture'
+						alt='Picture'
+						priority
 						/>
 						<div className={`${styles.icon} ${styles.icon1}`}>
 							<span className={`material-icons ${styles.back}`}>menu_book</span>

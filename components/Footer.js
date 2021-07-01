@@ -40,7 +40,7 @@ const Footer = () => {
 					</div>
 				</div>
 				<div
-					data-aos-delay='800'
+					data-aos-delay='400'
 					data-aos='zoom-in-left'
 					className={styles.flex}
 				>
@@ -51,7 +51,7 @@ const Footer = () => {
 					<small>Development</small>
 				</div>
 				<div
-					data-aos-delay='1100'
+					data-aos-delay='700'
 					data-aos='zoom-in-right'
 					className={styles.flex}
 				>
@@ -62,7 +62,7 @@ const Footer = () => {
 					<small>Pprivacy policy</small>
 				</div>
 				<div
-					data-aos-delay='1400'
+					data-aos-delay='1000'
 					data-aos='zoom-in-up'
 					className={styles.flex}
 				>

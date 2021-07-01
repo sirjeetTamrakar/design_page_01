@@ -6,7 +6,8 @@ const Steps = () => {
     return (
 			<div className={styles.head}>
 				<small>IN 4 EASY STEPS</small>
-				<h3>How to Learn at Stockholm</h3>
+			<h3>How to Learn at Stockholm</h3>
+			
 				<div className={styles.flex}>
 					{steps.map(step => (
 						<div

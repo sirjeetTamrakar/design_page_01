@@ -103,6 +103,10 @@ border-radius: .3rem;
         text-align: center;
     }
 
+    .phone{
+        text-align: center;
+    }
+
     .icons, .address{
         margin-top: 1rem;
     }

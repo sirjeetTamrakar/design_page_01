@@ -7,7 +7,9 @@ const Navbar = () => {
     return (
 			<>
 				<div className={styles.grid}>
-					<div className={styles.logo}>Logo</div>
+					<div className={styles.logo}>
+						<Link href='#home'>Logo</Link>
+					</div>
 					<span
 						className={`${styles.menu_icon} material-icons`}
 						onClick={() => setMenuIcon(!menuIcon)}
@@ -24,7 +26,7 @@ const Navbar = () => {
 							data-aos-once='true'
 							className={styles.link}
 						>
-							<Link href='/'>Home</Link>
+							<Link href='#home'>Home</Link>
 						</div>
 						<div
 							data-aos-delay='2650'
