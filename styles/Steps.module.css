@@ -18,6 +18,9 @@
     margin-bottom: 4rem;
 }
 
+.steps>h4{
+    color: #595b96;
+}
 .steps>h3{
     background-color: #e0e7f1;
     width:min-content;
