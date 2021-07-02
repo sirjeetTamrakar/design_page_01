@@ -59,7 +59,7 @@ const Footer = () => {
 					<small>Payment & Tax</small>
 					<small>Terms of Service</small>
 					<small>Your account</small>
-					<small>Pprivacy policy</small>
+					<small>Privacy policy</small>
 				</div>
 				<div
 					data-aos-delay='1000'

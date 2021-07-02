@@ -3,25 +3,25 @@ export const steps = [
 						id: "01",
 						title: "Create an Account",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1000,
+						delay: 600,
 					},
 					{
 						id: "02",
 						title: "Choose Any Course",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1200,
+						delay: 800,
 					},
 					{
 						id: "03",
 						title: "Payment",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1400,
+						delay: 1000,
 					},
 					{
 						id: "04",
 						title: "Enjoy Your Course",
 						description: `When you create an account, you agree to comply with our Terms of Use and anti-spam regulations. `,
-						delay: 1600,
+						delay: 1200,
 					},
 				];
 

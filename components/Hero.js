@@ -18,26 +18,23 @@ const Hero = () => {
 							</div>
 							Here
 						</h1>
-						<p data-aos='zoom-in-right' data-aos-delay='1000'>
+						<p data-aos='zoom-in-right' data-aos-delay='1500'>
 							You will learn the best ways to create testimonials from the best
 							tutors out there.
 						</p>
 						<div className={styles.buttons}>
-							<button
-								data-aos='fade-up-right'
-								data-aos-delay='1000'
-							>
+							<button data-aos='fade-up-right' data-aos-delay='2000'>
 								Get Started
 							</button>
 							<div>
 								<span
 									className='material-icons'
-									data-aos-delay='1000'
+									data-aos-delay='2400'
 									data-aos='zoom-in-down'
 								>
 									play_circle
 								</span>
-								<div data-aos-delay='1000' data-aos='zoom-in-up'>
+								<div style={{marginLeft:'.5rem'}} data-aos-delay='2800' data-aos='zoom-in-up'>
 									Watch Video
 								</div>
 							</div>
@@ -52,10 +49,14 @@ const Hero = () => {
 							src='/laptop.jpg'
 							className={styles.img}
 							layout='fill'
-						alt='Picture'
-						priority
+							alt='Picture'
+							priority
 						/>
-						<div className={`${styles.icon} ${styles.icon1}`}>
+						<div
+							data-aos-delay='2400'
+							data-aos='zoom-in-down'
+							className={`${styles.icon} ${styles.icon1}`}
+						>
 							<span className={`material-icons ${styles.back}`}>menu_book</span>
 							<small>
 								More Than
@@ -63,7 +64,9 @@ const Hero = () => {
 								<b>10K Courses</b>
 							</small>
 						</div>
-						<div className={`${styles.icon} ${styles.icon2}`}>
+						<div
+							className={`${styles.icon} ${styles.icon2}`}
+						>
 							<span className={`material-icons ${styles.back1}`}>done</span>
 							<small>
 								<b>Learn Faster</b>
@@ -75,7 +78,7 @@ const Hero = () => {
 				</div>
 				<div
 					data-aos='zoom-in-up'
-					data-aos-delay='2000'
+					data-aos-delay='1200'
 					className={styles.icons}
 				>
 					<i className='devicon-google-plain-wordmark'></i>

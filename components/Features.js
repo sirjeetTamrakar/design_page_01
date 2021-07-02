@@ -39,13 +39,13 @@ const Features = () => {
 						</div>
 					</div>
 					<div className={styles.content}>
-						<div className={styles.items}>
+						<div
+							data-aos-delay='800'
+							data-aos='zoom-in-left'
+							className={styles.items}
+						>
 							<span className={`material-icons ${styles.icon}`}>people</span>
-							<div
-								data-aos-delay='800'
-								data-aos='zoom-in-left'
-								className={styles.item}
-							>
+							<div className={styles.item}>
 								<b>Expert Mentors</b>
 								<small>
 									Excellent teachers guidance will be provided to you on a dailt
