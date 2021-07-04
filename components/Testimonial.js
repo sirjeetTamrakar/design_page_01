@@ -43,7 +43,8 @@ const Testimonial = () => {
 							src='/person.jpg'
 							className={styles.img}
 							layout='fill'
-							alt='Picture'
+						alt='Picture'
+						objectFit='cover'
 						/>
 					</div>
 				</div>

@@ -62,7 +62,6 @@
 }
 
 .content{
-    margin-right: 10rem;
     width: 60%;
 }
 
@@ -107,11 +106,14 @@ display: flex;}
     .main{
         grid-template-columns: 1fr 2fr;
     }
-    .content{
-        margin-right: 5rem;
+
+
+    .image{
+            height: 100%;
+
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .main{
         grid-template-columns: 1fr;
         margin-top: 2rem;
@@ -120,7 +122,7 @@ display: flex;}
     .image{
         margin: auto;
         margin-top: 5rem;
-        height: 40vh;
+        height: 20rem;
     }
     .icon1{
         top: -10%;

@@ -16,6 +16,7 @@
     border-radius: 2rem;
     width: 90%;
     margin-inline: auto;
+    height: 22.5rem;
 }
 
 .img{
@@ -120,7 +121,7 @@ align-items: center;}
     }
     .image{
         margin: auto;
-        height: 40vh;
+        height: 20rem;
     }
 }
 
@@ -139,7 +140,6 @@ align-items: center;}
     .image{
         margin: auto;
         margin-top: 5rem;
-        height: 30vh;
     }
     .items>span{
         margin-left: 1rem;
@@ -172,7 +172,10 @@ align-items: center;}
 
     .content{
         margin-left: 0;
-        margin-top: 2rem;
+        margin-top: 3rem;
+    }
+    .image{
+        height: 15rem;
     }
 
     

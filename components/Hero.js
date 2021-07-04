@@ -50,7 +50,8 @@ const Hero = () => {
 							className={styles.img}
 							layout='fill'
 							alt='Picture'
-							priority
+						priority
+						objectFit='cover'
 						/>
 						<div
 							data-aos-delay='2400'

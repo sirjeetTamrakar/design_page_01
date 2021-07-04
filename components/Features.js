@@ -18,7 +18,8 @@ const Features = () => {
 							src='/book.jpg'
 							className={styles.img}
 							layout='fill'
-							alt='Picture'
+						alt='Picture'
+						objectFit='cover'
 						/>
 						<div className={`${styles.i} ${styles.i1}`}>
 							<span className={`material-icons ${styles.back}`}>done_all</span>
